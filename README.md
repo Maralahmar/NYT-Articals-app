@@ -38,10 +38,13 @@ This project is a Flutter application that fetches and displays the most popular
    ```bash
    flutter pub get
    ```
-
+3. **Generate JSON Code**:
+- If your app requires JSON serialization, run the following command to generate the necessary JSON serialization code:
+   ```bash
+    flutter pub run build_runner build
+   ```
 3. **Set up your API Key**:
     - Replace `sample-key` in the API URL with your actual NY Times API key in the codebase.
-
 4. **Run the app**:
     - **On Mobile**:
       ```bash
